@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.saraa.quizapp.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.saraa.quizapp.MainActivity">
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rg_Bio1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biology Quiz"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:id="@+id/title_text_view"
+                android:paddingBottom="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#009900"
+                android:text="1. What is the smallest unit of a living being?"
+                android:id="@+id/Bio1_text_view"
+                android:paddingBottom="10dp"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nucleus"
+                android:id="@+id/radio_nucleus"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cell"
+                android:id="@+id/radio_cell"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Chromosome"
+                android:id="@+id/radio_chromosome"
+                android:checked="false" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_Bio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_Bio1"
+            android:layout_alignRight="@+id/rg_Bio1"
+            android:layout_alignEnd="@+id/rg_Bio1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#009900"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="2. What is the rigid layer that surrounds plant cells?"
+                android:id="@+id/Bio2_text_view"
+                android:layout_below="@id/title_text_view" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cell wall"
+                android:id="@+id/radio_cellwall"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cell membrane"
+                android:id="@+id/radio_cellmembrane"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vacuole"
+                android:id="@+id/radio_vacuole"
+                android:checked="false" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_Bio3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_Bio2"
+            android:layout_alignRight="@+id/rg_Bio2"
+            android:layout_alignEnd="@+id/rg_Bio2">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#009900"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="3. In DNA, adenine is paired with which nucleic acid?"
+                android:id="@+id/Bio3_text_view"
+                android:layout_below="@id/title_text_view" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cytosine"
+                android:id="@+id/radio_cytosine"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Thymine"
+                android:id="@+id/radio_thymine"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uracil"
+                android:id="@+id/radio_uracil"
+                android:checked="false" />
+
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/rg_Bio4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rg_Bio3">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#009900"
+                android:textStyle="bold"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="4. Choose the organelles."
+                android:id="@+id/Bio4_text_view"
+                android:layout_below="@id/title_text_view" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Golgi apparatus"
+                android:id="@+id/checkBox_golgi" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mitochondria"
+                android:id="@+id/checkBox_mitochondria" />
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ATP"
+                android:id="@+id/checkBox_ATP" />
+
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/Bio5_edit_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:layout_below="@+id/rg_Bio4"
+            android:hint="5. Name the process of a cell dividing into two identical daughter cells." />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:text="Submit"
+            android:id="@+id/button"
+            android:onClick="gradeQuiz"
+            android:layout_below="@+id/rg_Bio4"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="41dp" />
+
+    </RelativeLayout>
+</ScrollView>
