@@ -14,3 +14,4 @@ In this project from the Android Basics Nanodegree program, I made an educationa
 <li>Finally, write the code for the button which checks your answers. This code should run through each question in the app, record whether the user got the question right, and then display the quiz results in a Toast message.</li></ol>
 
 <h2>Screenshots</h2>
+<table><tr><td><img src="https://user-images.githubusercontent.com/34871894/79429345-a17dac80-7f84-11ea-8f60-f85a142ad07f.jpg" width="400"></td><td><img src="https://user-images.githubusercontent.com/34871894/79429351-a2aed980-7f84-11ea-8bc6-02b105fb00ee.jpg" width="400"></td></tr></table>
